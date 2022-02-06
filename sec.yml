@@ -2,4 +2,4 @@
   hosts: localhost
   tasks:
   - debug:
-      msg: "{{var1}}"
+      msg: "{{up.stdout}}"
