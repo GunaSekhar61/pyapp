@@ -2,4 +2,4 @@
   hosts: localhost
   tasks:
   - debug:
-     var: "{up.stdout}"
+     var: "{up}"
