@@ -1,5 +1,5 @@
 - name: printvar
   hosts: localhost
   tasks:
-    debug:
+  - debug:
       msg: "{{var1}}"
