@@ -1,4 +1,5 @@
 - name: printvar
   hosts: localhost
   tasks:
-  - name: print "{{up}}"
+    debug:
+      msg: "{{var1}}"
